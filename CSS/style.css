@@ -1,0 +1,76 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+/*  CSS DA SEÇÂO CONTATOS E FOOTER  */
+
+.contato-sec{   
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-family: "Lora";
+}
+
+.contato-sec #C {
+    width: 12%;
+    margin-left: 40%;
+    font-size: 30px;
+    text-align: center;
+    color: #182D4A;
+    border-bottom: solid #182D4A 4px;
+}
+
+.barra-div{
+    width: 1.5px;
+    height: 370px;
+    background-color: rgb(184, 183, 183);
+    margin: 6% 46% 0%;
+}
+
+.Contatos {
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    top: 17%;
+    margin-left: 10px;
+}
+
+.Contatos #logo{
+    width: 50%;
+}
+
+.formas-contatos{   
+    margin-top: -5%;
+    color: #182D4A;
+    font-family: "Inter";
+}
+
+.formas-contatos i{
+    margin-right: 6px;
+    margin-top: 15px;  
+}
+
+.formas-contatos a{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 95%;
+    margin-left: -12%;
+    padding: 10px 50px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: #182D4A; 
+}
+
+.formas-contatos #w{
+    margin-right: 10px;
+    margin-top: 0; 
+    font-size: 20px;
+}
