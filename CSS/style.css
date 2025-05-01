@@ -29,7 +29,7 @@ html{
 
 .barra-div{
     width: 1.5px;
-    height: 370px;
+    height: 420px;
     background-color: rgb(184, 183, 183);
     margin: 6% 46% 0%;
 }
@@ -43,7 +43,7 @@ html{
 }
 
 .Contatos #logo{
-    width: 50%;
+    width: 55%;
 }
 
 .formas-contatos{   
@@ -54,7 +54,7 @@ html{
 
 .formas-contatos i{
     margin-right: 6px;
-    margin-top: 15px;  
+    margin-top: 20px;  
 }
 
 .formas-contatos a{
@@ -62,7 +62,8 @@ html{
     color: white;
     text-decoration: none;
     top: 95%;
-    margin-left: -12%;
+    margin-left: -16%;
+    margin-top: 25px;
     padding: 10px 50px 10px;
     border-radius: 30px;
     font-weight: 500;
@@ -74,3 +75,48 @@ html{
     margin-top: 0; 
     font-size: 20px;
 }
+
+
+.formulario-contato{
+    position: absolute;
+    font-family: "Lora";
+    top: 13% ;
+    left: 55%;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .contato-sec #E {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 25px;
+    text-align: center;
+    color: #182D4A;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+  }
+  
+  input, textarea , select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  select{
+    color: #747272;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #182D4A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -30,7 +30,6 @@
     </section>
     <section class="contato-sec">
         <h1 id="C">Contato</h1>
-        <div class="barra-div" ></div>
         <div class="Contatos">
              <img id ="logo" src="./Src/img/Logo Site Pi (3) (1).png" alt="imagem-Logo Monitca Cordeiro">
              <div class="formas-contatos" >
@@ -38,8 +37,27 @@
                 <p><i class="fa-solid fa-envelope"></i>   monica.cordeiro@adv.oabsp.org.br </p>
                 <p><i class="fa-solid fa-location-dot"></i>  Av. Dr. Silva Melo, nº 520, Jardim Marajoara - São Paulo - SP</p>
                 <a href="#COLOCAR LINK WHATZAAP WEB MONICA"><i id="w" class="fa-brands fa-whatsapp"></i>WhatsApp</a>
-             </div>  
+             </div> 
         </div>   
+        <div class="barra-div" ></div>
+        <div class="formulario-contato">
+            <form  id="Contato-Forms">
+                <h1 id="E" >Mande uma Mensagem</h1>
+                <input type="text" placeholder="Seu nome" required />
+                <input type="email" placeholder="Seu e-mail" required />
+                <input type="tel" placeholder="Seu telefone" required />
+                <select name="assunto" id="assunto" form = "Contato-Forms" >
+                    <option value="assunto">Assunto</option>
+                    <option value="">Serviço1</option>
+                    <option value="">Serviço2</option>
+                    <option value="">Serviço3</option>
+                    <option value="">Serviço4</option>
+                    <option value="">Outros Assuntos</option>
+                </select>
+                <textarea placeholder="Sua mensagem" rows="4" cols="50" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
     </section>
     <footer>
     </footer>
