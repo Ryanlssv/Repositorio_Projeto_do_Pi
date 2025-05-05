@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="css/style.css">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mônica Cordeiro Advocacia</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
 </head>
 <body>
-
-  <header>
-    <div class="info">
-      <span>📧 monica.cordeiro@adv.oabsp.org.br</span>
-      <span>📞 (11) 99875-4000</span>
-      <span>📍 Av. Dr. Silva Melo, nº 520, Jardim Marajoaras - São Paulo - SP</span>
+    <header>
+        <!--AQUI FICA O HEADER : 
+        Bara inical de contato , abaixo fica a logo e os botões de navegação
+        -->
+    </header>
+    <div>
+        <!--
+        Aqui fica abaixo do HEADER logo abaixo da logo e navegação:
+        Aqui ficarar a IMG de destaque e o btn do whatazzap
+        -->
     </div>
-  </header>
+    <section>
+        <!--Secão SOBRE da Monitca:
+        Div: para o a descrição e experiencia
+        Div: para a foto  
+        -->
+    </section>
+    <section>
+        <!--area de atuação fica aqui-->
+    </section>
+    <section class="contato-sec">
+        <h1 id="C">Contato</h1>
+        <div class="Contatos">
+             <img id ="logo" src="./Src/img/Logo Site Pi (3) (1).png" alt="imagem-Logo Monitca Cordeiro">
+             <div class="formas-contatos" >
+                <p><i class="fa-solid fa-phone" style="color: #182d4a;"></i>   (11) 99875-4000 </p>
+                <p><i class="fa-solid fa-envelope"></i>   monica.cordeiro@adv.oabsp.org.br </p>
+                <p><i class="fa-solid fa-location-dot"></i>  Av. Dr. Silva Melo, nº 520, Jardim Marajoara - São Paulo - SP</p>
+                <a href="#COLOCAR LINK WHATZAAP WEB MONICA"><i id="w" class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+             </div> 
+        </div>   
+        <div class="barra-div" ></div>
+        <div class="formulario-contato">
+            <form  id="Contato-Forms">
+                <h1 id="E" >Mande uma Mensagem</h1>
+                <input type="text" placeholder="Seu nome" required />
+                <input type="email" placeholder="Seu e-mail" required />
+                <input type="tel" placeholder="Seu telefone" required />
+                <select name="assunto" id="assunto" form = "Contato-Forms" >
+                    <option value="assunto">Assunto</option>
+                    <option value="">Serviço1</option>
+                    <option value="">Serviço2</option>
+                    <option value="">Serviço3</option>
+                    <option value="">Serviço4</option>
+                    <option value="">Outros Assuntos</option>
+                </select>
+                <textarea placeholder="Sua mensagem" rows="4" cols="50" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="direitos" >
+        <p>© 2025 Mônica Cordeiro. Todos os direitos reservados. <a href="">Desenvolvedores</a> </p>
+    </div>
+    <div class="links">
+        <ul>
+           <li><a href="">FAQ</a></li>
+           <li><a href="">Termos de uso</a></li>
+           <li><a href="">Politica de privacidade</a></li>
+           <li><a href="">LGPD</a></li> 
+        </ul>
+    </div>
+</footer>
 
-  <nav>
-    <div class="nav-container">
-      <div class="logo">
-        <img src="images/Logo Site Pi (1) (1).png" alt="Logo Monica Cordeiro" style="max-height: 100px;">
-      </div>
-      <div class="links">
-        <a href="#" class="nav-link active">Início</a>
-        <a href="#" class="nav-link">Áreas de atuação</a>
-        <a href="#" class="nav-link">Contato</a>
-      </div>
-    </div>    
-  </nav>
 
-  <div class="hero-image-container">
-    <img src="images/ImagemPI.jpeg" alt="Imagem de fundo" class="hero-image">
-    <a href="#contato" class="hero-link">Entre em contato</a>
-  </div>
-
-  <script>
-    const links = document.querySelectorAll('.nav-link');
-  
-    links.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault(); // impede rolagem ou navegação
-        links.forEach(l => l.classList.remove('active'));
-        link.classList.add('active');
-      });
-    });
-  </script>
-  </body>
-  </html>  
+<script src="https://kit.fontawesome.com/02669f3445.js" crossorigin="anonymous"></script>    
+</body>
+</html>
