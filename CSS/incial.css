@@ -179,5 +179,6 @@
 
 .hero-link:hover {
   background-color: #25d366;
+    color: white;
   transform: scale(1.1);
 }
