@@ -91,6 +91,12 @@
     font-weight: 500;
     font-size: 20px;
     position: relative;
+    transition: color 0.5s, transform 0.5s;
+  }
+
+    nav .links a:hover {
+    color: #12355e;
+    transform: scale(1.1)
   }
   
   nav .links a:first-child::after {
@@ -234,7 +240,6 @@ nav .links a.active::after {
   position: absolute;
   bottom: 43%; /* distância do botão em relação à base da imagem */
   left: 54%;
-  transform: translateX(-50%);
   background-color: #b19763;
   color: white;
   text-decoration: none;
@@ -242,9 +247,11 @@ nav .links a.active::after {
   border-radius: 25px;
   font-weight: bold;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s,  transform 0.5s;
+  
 }
 
 .hero-link:hover {
   background-color: #a1854e;
+  transform: scale(1.1);
 }
