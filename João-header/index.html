@@ -27,26 +27,17 @@
         <a href="#" class="nav-link active">Início</a>
         <a href="#" class="nav-link">Áreas de atuação</a>
         <a href="#" class="nav-link">Contato</a>
+        <a href=""><i id="redes" class="fa-brands fa-instagram"></i></a>
+        <a href=""><i id="redes" class="fa-brands fa-linkedin"></i></a>
       </div>
     </div>    
   </nav>
 
   <div class="hero-image-container">
     <img src="./images/destque2 (2).png" alt="Imagem de fundo" class="hero-image">
-    <a href="#contato" class="hero-link">Entre em contato</a>
+    <a href="#contato" class="hero-link"><i class="fa-brands fa-whatsapp" style=" font-weight:500; padding-right: 3px; margin-top: -5%; font-size: 20px; color: #ffffff;"></i> whatsApp</a>
   </div>
 
-  <script>
-    const links = document.querySelectorAll('.nav-link');
-  
-    links.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault(); // impede rolagem ou navegação
-        links.forEach(l => l.classList.remove('active'));
-        link.classList.add('active');
-      });
-    });
-  </script>
   <script src="https://kit.fontawesome.com/02669f3445.js" crossorigin="anonymous"></script>
   </body>
   </html>  
