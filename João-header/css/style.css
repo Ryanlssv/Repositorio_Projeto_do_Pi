@@ -165,6 +165,7 @@
   }
   
   @media (max-width: 768px) {
+    body{background-color: yellow;}
     .main-content {
       flex-direction: column;
       text-align: center;
