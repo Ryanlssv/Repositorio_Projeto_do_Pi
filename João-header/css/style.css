@@ -15,8 +15,9 @@
   header {
     background-color: #0f2c4d;
     color: white;
-    padding: 10px 40px;
-    font-size: 14px;
+    padding: 15px 40px;
+    font-size: 12px;
+    font-family: "Inter";
     text-align: center;
   }
   
@@ -24,7 +25,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
   }
   
   header .info span {
@@ -44,17 +45,15 @@
   }
   
   nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 40px;
-    border-bottom: 2px solid #caa658;
+    padding: 20px 50px 20px;
+    font-family: "Inter";
+    margin-left: -20%;
   }
-  
-  .logo-area {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+
+  i{
+    padding-right: 5px;
   }
   
   .placeholder-logo {
@@ -83,7 +82,7 @@
   
   nav .links {
     display: flex;
-    gap: 40px;
+    gap: 55px;
   }
   
   nav .links a {
@@ -202,8 +201,7 @@ nav .links a.active::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 100px; /* Aumenta a distância entre a logo e os links */
-  margin-top: 30px;
+  column-gap: 100px;
   flex-wrap: wrap;
 }
 
@@ -222,18 +220,14 @@ nav .links a.active::after {
 }
 .hero-image img {
   width: 100%;
-  height: auto;
-  display: block;
 }
 .hero-image-container {
-  position: relative;
   width: 100%;
   height: auto;
 }
 
 .hero-image {
   width: 100%;
-  display: block;
 }
 
 .hero-link {
