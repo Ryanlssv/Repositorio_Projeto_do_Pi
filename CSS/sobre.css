@@ -1,0 +1,74 @@
+.titulo,
+  strong {
+   font-family: 'League Spartan', sans-serif;
+   font-weight: 700;
+  }
+  
+  
+.perfil {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 800px;
+   background-color: #0F2844;
+   color: white;
+   border-top: 20px solid #B08B4F;
+  }
+  
+.perfil-conteudo {
+   width: 40%;
+   margin-top: 9%;
+   margin-left: 7%;
+   text-align: justify;
+  }
+  
+ .perfil h2 {
+   margin: 0;
+   font-size: 35px;
+   font-family: "Lora";
+   color: #ffffff;
+  }
+  
+.titulo {
+   margin: 5px 0 20px;
+   font-size: 20px;
+   font-weight: bold;
+   color: #b8c7d1;
+  }
+  
+.descricao {
+   margin-bottom: 40px;
+   font-size: 20px;
+   font-family: "Inter";
+   line-height: 1.6;
+  }
+  
+.experiencia li {
+   margin-bottom: 25px;
+   font-size: 17px;
+   font-family: "Inter";
+  }
+  
+.perfil-foto {
+   width: 30%;
+   display: flex;
+   justify-content: center;
+
+  }
+  
+.foto-box {
+   position: absolute;
+   width: 400px;
+   height: 500px;
+   margin-top: 5%;
+   margin-right:30%;
+   background-color: #B08B4F; 
+   box-shadow: 15px 15px 0 #e3e3e3;
+  }
+  
+  
+.faixa-dourada {
+  height: 20px;
+   background-color: #B08B4F;
+   width: 100%;
+  }

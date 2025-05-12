@@ -1,0 +1,191 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+/*  CSS DA SEÇÂO CONTATOS E FOOTER  */
+
+.contato-sec{   
+  margin-top: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-family: "Lora";
+}
+
+.contato-sec #C {
+    width: 12%;
+    margin-left: 40%;
+    font-size: 30px;
+    text-align: center;
+    color: #182D4A;
+    border-bottom: solid #182D4A 4px;
+}
+
+.barra-div{
+    width: 1.5px;
+    height: 420px;
+    background-color: rgb(184, 183, 183);
+    margin: 6% 46% 0%;
+}
+
+.Contatos {
+    position: absolute;
+    width: 45%;
+    height: 40%;
+    top: 300%;
+    margin-left: 10px;
+}
+
+.Contatos #logo{
+    width: 55%;
+}
+
+.formas-contatos{   
+    margin-top: -5%;
+    color: #182D4A;
+    font-family: "Inter";
+}
+
+.formas-contatos i{
+    margin-right: 6px;
+    margin-top: 20px;  
+}
+
+.formas-contatos a{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-left: -16%;
+    margin-top: 25px;
+    padding: 10px 50px 10px;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: #182D4A; 
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.formas-contatos a:hover{
+    background-color:#AC8D51;
+    color: white; 
+    transform: scale(1.1);
+    
+}
+
+.formas-contatos #w{
+    margin-right: 10px;
+    margin-top: 0; 
+    font-size: 20px;
+}
+
+
+.formulario-contato{
+    position: absolute;
+    font-family: "Lora";
+    flex-direction: column;
+    top: 290%;
+    left: 55%;
+    width: 40%;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .contato-sec #E {
+    width: 65%;
+    margin-left: 17%;
+    font-size: 25px;
+    text-align: center;
+    color: #182D4A;
+    border-bottom: solid #182D4A 4px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+  }
+  
+  input, textarea , select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  select{
+    color: #747272;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #182D4A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.5s;
+  }
+
+  button:hover{
+    background-color: #AC8D51;
+    transform: scale(1.1);
+  } 
+
+footer{
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+    font-family: "Inter";
+  }
+
+  .direitos{
+    font-size: 15px;
+    background-color:#182D4A;
+    padding: 20px 20px 20px;
+    font-family: "Inter";
+  } 
+
+  .direitos a {
+    color: #AC8D51;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  .direitos a:hover { 
+     color: #747272;
+    text-decoration:underline;
+    } 
+
+.footer-nav{
+    background-color: #AC8D51;
+
+}
+
+.footer-nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 37%;
+}
+
+.footer-nav li {
+    padding: 3px 10px 3px;
+}
+
+.footer-nav li a {
+    font-size: 14px;
+    font-family: "Inter";
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.footer-nav a:hover {
+    color: #182D4A;
+}

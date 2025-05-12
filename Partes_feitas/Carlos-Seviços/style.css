@@ -1,0 +1,128 @@
+body {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+ }
+
+ .servicos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #182D4A
+}
+
+.servicos h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #182D4A
+}
+
+.cards-servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(228, 223, 223);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon-card {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: white;             /* Cor do ícone */
+    background-color: #AC8D51;/* Cor de fundo */
+    border-radius: 5px;         /* Cantos suavemente arredondados */
+    padding: 5px 7px;           /* Espaçamento interno (horizontal e vertical) */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+  }
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color:#182D4A;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #182D4A;
+}
+
+  /* League Spartan - peso 700 (bold) */
+.league-spartan-bold {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* Inter - peso 400 (regular) */
+  .inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Lora - peso 400, estilo regular */
+  .lora-regular {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lora-bold {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .fa-check {
+    color: #182D4A;
+    margin-right: 8px;
+  }
+
+  .titulo-atuacao {
+    position: relative; /* Necessário para posicionar os ::before e ::after */
+    display: inline-block; /* Para o traço ter largura adequada ao conteúdo */
+    padding: 20px 0; /* Espaço para os traços não colarem no texto */
+  }
+  
+  /* Linha acima */
+  .titulo-atuacao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 4px;
+    background-color: #182D4Afd;
+  }
+  
+  /* Linha abaixo */
+  .titulo-atuacao::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 4px;
+    background-color: #182D4Afd;
+  }
+  
+  .texto-azul-escuro {
+    color: #182D4A;
+  }
