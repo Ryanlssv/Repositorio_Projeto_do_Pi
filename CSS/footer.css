@@ -40,7 +40,7 @@ html{
     position: absolute;
     width: 45%;
     height: 40%;
-    top: 300%;
+    top: 450%;
     margin-left: 10px;
 }
 
@@ -90,7 +90,7 @@ html{
     position: absolute;
     font-family: "Lora";
     flex-direction: column;
-    top: 290%;
+    top: 445%;
     left: 55%;
     width: 40%;
     margin: auto;
