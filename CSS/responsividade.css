@@ -1,0 +1,145 @@
+@media (max-width: 768px) {
+    /* GERAL */
+    body, html {
+      overflow-x: hidden;
+    }
+  
+    * {
+      text-align: center;
+    }
+  
+    /* HEADER */
+    header .info {
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14px;
+    }
+  
+    /* NAV */
+    nav {
+      flex-direction: column;
+      padding: 20px;
+      margin-left: 0;
+    }
+  
+    .nav-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .links {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .links a {
+      font-size: 18px;
+    }
+  
+    /* HERO */
+    .hero-image img {
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .hero-link {
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      padding: 12px 30px;
+    }
+  
+    /* PERFIL */
+    .perfil {
+      flex-direction: column;
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .perfil-conteudo {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .perfil-foto {
+      width: 100%;
+      margin-top: 20px;
+      justify-content: center;
+    }
+  
+    .foto-box {
+      position: static;
+      width: 300px;
+      height: 400px;
+      margin: 0 auto;
+    }
+  
+    /* DESTAQUE DIREITO */
+    .destaque-direito .main-content {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .destaque-direito .main-text h2 {
+      font-size: 22px;
+    }
+  
+    .destaque-direito .main-text p {
+      font-size: 14px;
+    }
+  
+    .destaque-direito .hero-img img {
+      max-width: 250px;
+    }
+  
+    /* CONTATO */
+    .contato-sec {
+      padding: 30px 20px;
+      margin-top: 80px;
+    }
+  
+    .Contatos {
+      position: static;
+      width: 100%;
+      margin: 20px auto;
+    }
+  
+    .formulario-contato {
+      position: static;
+      width: 100%;
+      margin-top: 40px;
+    }
+  
+    .barra-div {
+      display: none;
+    }
+  
+    .formas-contatos a {
+      position: static;
+      margin: 20px auto;
+      display: inline-block;
+    }
+  
+    #C, #E {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    /* FOOTER */
+    .footer-nav ul {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto;
+      gap: 10px;
+    }
+  
+    .footer-nav li {
+      padding: 5px;
+    }
+  
+    .direitos {
+      font-size: 14px;
+      padding: 15px;
+    }
+  }
+  
