@@ -163,13 +163,13 @@
 
 .hero-link {
   position: absolute;
-  bottom: 30%;
-  left: 54%;
+  bottom: 28%;
+  left: 49%;
   background-color: #ad8e50;
   color: white;
   text-decoration: none;
   font-family: "Inter";
-  padding: 12px 28px;
+  padding: 16px 40px;
   border-radius: 25px;
   font-weight: bold;
   font-size: 18px;

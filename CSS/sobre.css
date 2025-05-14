@@ -9,10 +9,10 @@
    display: flex;
    justify-content: space-between;
    width: 100%;
-   height: 800px;
+   height: 810px;
    background-color: #0F2844;
    color: white;
-   border-top: 20px solid #B08B4F;
+   border-top: 14px solid #B08B4F;
   }
   
 .perfil-conteudo {
@@ -45,7 +45,7 @@
   
 .experiencia li {
    margin-bottom: 25px;
-   font-size: 17px;
+   font-size: 14px;
    font-family: "Inter";
   }
   
