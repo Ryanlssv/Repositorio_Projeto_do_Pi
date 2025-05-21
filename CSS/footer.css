@@ -108,18 +108,23 @@ form {
     max-width: 500px;
   }
   
-  input, textarea , select {
-    padding: 10px;
+  input, textarea, select {
+    width: 500px; /* define a largura */
+    padding: 10px 15px; /* padding equilibrado, para o texto ficar com espaço interno */
     border: 1px solid #ccc;
     border-radius: 4px;
+    text-align: left; /* garante que o texto e o placeholder fiquem à esquerda */
+    box-sizing: border-box; /* evita que o padding estoure a largura */
   }
 
   select{
     color: #747272;
   }
   
-  button {
-    padding: 12px;
+  
+  .button-forms {
+    padding: 12px 200px ;
+    margin-left: 5%;
     background-color: #AC8D51;
     color: white;
     border: none;
