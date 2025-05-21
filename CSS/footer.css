@@ -4,18 +4,12 @@
     box-sizing: border-box;
 }
 
-html{
-    background-color: white;
-    scroll-behavior: smooth;
-}
-
-/*  CSS DA SEÇÂO CONTATOS E FOOTER  */
 
 .contato-sec{   
-  margin-top: 100%;
+  margin-top: 115%;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #FBF6F0;
     width: 100%;
     font-family: "Lora";
 }
@@ -25,8 +19,8 @@ html{
     margin-left: 40%;
     font-size: 30px;
     text-align: center;
-    color: #182D4A;
-    border-bottom: solid #182D4A 4px;
+    color: #AC8D51;
+    border-bottom: solid #AC8D51 4px;
 }
 
 .barra-div{
@@ -40,40 +34,41 @@ html{
     position: absolute;
     width: 45%;
     height: 40%;
-    top: 450%;
+    top: 445%;
     margin-left: 10px;
 }
 
 .Contatos #logo{
-    width: 55%;
+    width: 45%;
+    padding-bottom: 20px;
 }
 
 .formas-contatos{   
     margin-top: -5%;
-    color: #182D4A;
+    color: #000000;
     font-family: "Inter";
 }
 
 .formas-contatos i{
     margin-right: 6px;
-    margin-top: 20px;  
+    margin-top: 30px;  
 }
 
 .formas-contatos a{
     position: absolute;
     color: white;
     text-decoration: none;
-    margin-left: -16%;
+    margin-left: -13%;
     margin-top: 25px;
     padding: 10px 50px 10px;
     border-radius: 30px;
     font-weight: 500;
-    background-color: #182D4A; 
+    background-color: #AC8D51; 
     transition: background-color 0.5s, transform 0.5s;
 }
 
 .formas-contatos a:hover{
-    background-color:#AC8D51;
+    background-color: #25d366;
     color: white; 
     transform: scale(1.1);
     
@@ -102,8 +97,8 @@ html{
     margin-left: 17%;
     font-size: 25px;
     text-align: center;
-    color: #182D4A;
-    border-bottom: solid #182D4A 4px;
+    color: #AC8D51;
+    border-bottom: solid #AC8D51 4px;
   }
 
 form {
@@ -125,7 +120,7 @@ form {
   
   button {
     padding: 12px;
-    background-color: #182D4A;
+    background-color: #AC8D51;
     color: white;
     border: none;
     border-radius: 5px;
@@ -134,7 +129,7 @@ form {
   }
 
   button:hover{
-    background-color: #AC8D51;
+    background-color: #997732;
     transform: scale(1.1);
   } 
 
@@ -146,40 +141,22 @@ footer{
   }
 
   .direitos{
+    justify-content: center;
+    display: flex;
     font-size: 15px;
-    background-color:#182D4A;
+    background-color:#AC8D51;
     padding: 20px 20px 20px;
     font-family: "Inter";
   } 
 
-  .direitos a {
-    color: #AC8D51;
-    text-decoration: none;
-    transition: color 0.5s;
-  }
-
-  .direitos a:hover { 
-     color: #747272;
-    text-decoration:underline;
-    } 
-
-.footer-nav{
-    background-color: #AC8D51;
-
-}
-
 .footer-nav ul{
     display: flex;
     list-style: none;
-    margin-left: 37%;
-}
-
-.footer-nav li {
-    padding: 3px 10px 3px;
 }
 
 .footer-nav li a {
     font-size: 14px;
+    padding-left: 15px;
     font-family: "Inter";
     text-decoration: none;
     color: white;
@@ -187,5 +164,5 @@ footer{
 }
 
 .footer-nav a:hover {
-    color: #182D4A;
+    color: #000000;
 }
