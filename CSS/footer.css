@@ -16,7 +16,7 @@
 
 .contato-sec #C {
     width: 12%;
-    margin-left: 40%;
+    margin-left: 44%;
     font-size: 30px;
     text-align: center;
     color: #AC8D51;
@@ -25,17 +25,17 @@
 
 .barra-div{
     width: 1.5px;
-    height: 420px;
+    height: 450px;
     background-color: rgb(184, 183, 183);
-    margin: 6% 46% 0%;
+    margin: 5% 50% 0%;
 }
 
 .Contatos {
     position: absolute;
     width: 45%;
     height: 40%;
-    top: 445%;
-    margin-left: 10px;
+    top: 443%;
+    margin-left: 100px;
 }
 
 .Contatos #logo{
@@ -85,8 +85,8 @@
     position: absolute;
     font-family: "Lora";
     flex-direction: column;
-    top: 445%;
-    left: 55%;
+    top: 443%;
+    left: 60%;
     width: 40%;
     margin: auto;
     padding: 20px 0;
@@ -135,7 +135,7 @@ form {
 
 footer{
     text-align: center;
-    margin-top: 12%;
+    margin-top: 10%;
     color: white;
     font-family: "Inter";
   }
