@@ -1,0 +1,187 @@
+body {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+ .servicos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #AC8D51
+}
+
+.servicos h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #182D4A
+}
+
+.cards-servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+  .card {
+  position: relative;
+  padding: 20px;
+  background-color: #dcdcdc; /* cinza claro */
+  border-radius: 1px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* aspect-ratio: 1 / 1; /* proporção 1:1 para manter quadrado */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.icon-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 30px;
+  color: white; 
+  background-color: #AC8D51;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px; /* cantos levemente arredondados */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    color:#AC8D51;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+  /* League Spartan - peso 700 (bold) */
+.league-spartan-bold {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* Inter - peso 400 (regular) */
+  .inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lora-regular {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Lora - peso 500, estilo regular italic */
+  .lora-regular-italic {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .lora-bold {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .fa-check {
+    color: #182D4A;
+    margin-right: 8px;
+  }
+
+  .titulo-atuacao {
+    position: relative; /* Necessário para posicionar os ::before e ::after */
+    display: inline-block; /* Para o traço ter largura adequada ao conteúdo */
+    padding: 20px 0; /* Espaço para os traços não colarem no texto */
+  }
+  
+  /* Linha acima */
+  .titulo-atuacao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 4px;
+    background-color: #AC8D51;
+  }
+  
+  /* Linha abaixo */
+  .titulo-atuacao::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 4px;
+    background-color: #AC8D51;
+  }
+  
+  .texto-azul-escuro {
+    color: black;
+  }
+
+  .icon-renda {
+  font-size: 18px;
+  color: white;
+  background-color: #AC8D51;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-right: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+  .icon-equipe {
+  font-size: 18px;
+  color: white;
+  background-color: #AC8D51;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-right: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icon-conta {
+  font-size: 18px;
+  color: white;
+  background-color: #AC8D51;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-right: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+

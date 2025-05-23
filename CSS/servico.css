@@ -1,13 +1,11 @@
-body {
-    padding: 4rem 2rem;
-    background-color: #ffffff;
+.servicos{
     text-align: center;
- }
+}
 
- .servicos h2 {
+.servicos h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #182D4A
+    color: #AC8D51
 }
 
 .servicos h4 {
@@ -20,41 +18,53 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
+    margin-left: 20px;
+    padding: 20px;
 }
 
-.card {
-    position: relative;
-    padding: 20px;
-    background-color: rgb(228, 223, 223);
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .icon-card {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 16px;
-    color: white;             /* Cor do ícone */
-    background-color: #AC8D51;/* Cor de fundo */
-    border-radius: 5px;         /* Cantos suavemente arredondados */
-    padding: 5px 7px;           /* Espaçamento interno (horizontal e vertical) */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra opcional */
-  }
+  .card {
+  position: relative;
+  margin-top: 25px;
+  text-align: left;
+  padding: 20px 60px;
+  background-color: #dcdcdc; /* cinza claro */
+  border-radius: 1px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* aspect-ratio: 1 / 1; /* proporção 1:1 para manter quadrado */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform 0.5s;
+}
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
+.card span {
+    padding: 5px 10px 10px;
+    border-radius: 5px;
+    background-color: #AC8D51;
+    margin-right: 20px;
+}
+
+.card i {
+    color: white;
+}
+
+
+
+
+
 .card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.8rem;
-    color:#182D4A;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    color:#AC8D51;
 }
 
 .card p {
-    font-size: 1rem;
-    color: #182D4A;
+    font-size: 1.2rem;
+    color: black;
 }
 
   /* League Spartan - peso 700 (bold) */
@@ -70,10 +80,9 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
   }
   
-  /* Lora - peso 400, estilo regular */
   .lora-regular {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
@@ -81,10 +90,18 @@ body {
     font-style: normal;
   }
 
+  /* Lora - peso 500, estilo regular italic */
+  .lora-regular-italic {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+  }
+
   .lora-bold {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
   }
 
@@ -108,7 +125,7 @@ body {
     transform: translateX(-50%);
     width: 160px;
     height: 4px;
-    background-color: #182D4Afd;
+    background-color: #AC8D51;
   }
   
   /* Linha abaixo */
@@ -120,9 +137,15 @@ body {
     transform: translateX(-50%);
     width: 160px;
     height: 4px;
-    background-color: #182D4Afd;
+    background-color: #AC8D51;
   }
   
   .texto-azul-escuro {
-    color: #182D4A;
+    color: black;
   }
+
+
+
+
+
+
