@@ -1,9 +1,10 @@
 .servicos{
     text-align: center;
+    margin-top: 7%;
 }
 
 .servicos h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     color: #AC8D51
 }
@@ -17,14 +18,14 @@
 .cards-servicos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-left: 20px;
+    gap: 1rem;
     padding: 20px;
 }
 
   .card {
   position: relative;
   margin-top: 25px;
+  margin-right: 10px;
   text-align: left;
   padding: 20px 60px;
   background-color: #dcdcdc; /* cinza claro */
@@ -48,16 +49,13 @@
     margin-right: 20px;
 }
 
+
 .card i {
     color: white;
 }
 
-
-
-
-
 .card h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
     color:#AC8D51;
 }
@@ -111,12 +109,12 @@
   }
 
   .titulo-atuacao {
-    position: relative; /* Necessário para posicionar os ::before e ::after */
-    display: inline-block; /* Para o traço ter largura adequada ao conteúdo */
-    padding: 20px 0; /* Espaço para os traços não colarem no texto */
+    position: relative; 
+    display: inline-block; 
+    padding: 20px 0; 
   }
   
-  /* Linha acima */
+
   .titulo-atuacao::before {
     content: "";
     position: absolute;
@@ -142,10 +140,34 @@
   
   .texto-azul-escuro {
     color: black;
+
   }
 
+/*Quadrado de divisão - PRECISA*/
 
+.div-precisa{
+  width: 100%;
+  margin-top: 6%;
+  padding: 5px;
+  background-color: #AC8D51;
+  border: solid #AC8D51 20px;
+}
 
+.text-precisa{
+  color: #AC8D51;
+  font-size: 1.1rem;
+  font-family: "Lora";
+  background-color: #dcdcdc;
+  padding: 70px;
+  border-radius: 20px;
+}
 
+.text-precisa p{
+  margin-top: 1%;
+}
+.text-precisa span {
+  color: #AC8D51;
+  font-weight: 700;
+}
 
 
