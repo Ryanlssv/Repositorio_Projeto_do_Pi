@@ -84,7 +84,7 @@
     height: 270px;
     border-radius: 14px;
     font-weight: 500;
-    transition: transform 0.5;
+    transition: transform 0.5s;
 }
 
 .descricaocentro i{
