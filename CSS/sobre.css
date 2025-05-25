@@ -12,6 +12,10 @@
     justify-items: center;
 }
 
+#SOBRE{
+     scroll-margin-top: 90px;
+}
+
 .sec-sobre h1{
   font-family: "Lora";
   font-weight: bold;
