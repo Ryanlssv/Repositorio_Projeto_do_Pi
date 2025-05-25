@@ -142,4 +142,33 @@
       padding: 15px;
     }
   }
-  
+
+
+@media (min-width: 1440px) {
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-link {
+     bottom: 22%;
+     left: 47%;
+  }
+
+  .contato-sec{  
+    margin-top: 12%;
+   }
+
+.Contatos {
+    top: 360%;
+    margin-left: 50px;
+  }
+
+.formas-contatos a{
+    margin-left: -16%;
+    }
+
+.formulario-contato{
+    top: 356%;
+    left: 60%;
+  }    
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+  body {
+    font-family: Inter;
+    color: #1a1a1a;
+    background-color: #fbf6f0;
+  }
+
+.nav-links{
+       position: fixed;
+       width: 100%;
+       top: 0;
+}
+
+.nav-links h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #AC8D51;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-ul{
+    width: 100%;
+    background-color: white;
+   padding: 5px;
+
+}
+
+ .nav-links li{
+    padding-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #AC8D51;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.nav-links li a:hover {
+    color: #aa7f2a;
+    font-size: 1.5rem;
+}
+
+.faq{
+    margin-top: 12%;
+}
+
+#text {
+    font-size: 1.5rem;
+}
+
+#titulo {
+    padding: 20px; 
+}
+
+#FAQ{
+     scroll-margin-top: 150px; 
+}
+
+#TERMOS{
+     scroll-margin-top: 150px;
+}
+
+#POLITICAS{
+     scroll-margin-top: 150px;
+}
+
+#LGPD{
+ scroll-margin-top: 150px;
+}
+
+ ul {
+    list-style: none;
+}
+
+li{
+    padding: 20px;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+ p{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+
+.sec{
+    margin-top: 1%;
+}
+
