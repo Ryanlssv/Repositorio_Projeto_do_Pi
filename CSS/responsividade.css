@@ -155,11 +155,11 @@
   }
 
   .contato-sec{  
-    margin-top: 12%;
+    margin-top: 7%;
    }
 
 .Contatos {
-    top: 360%;
+    top: 330%;
     margin-left: 50px;
   }
 
@@ -168,7 +168,8 @@
     }
 
 .formulario-contato{
-    top: 356%;
+    top: 328%;
     left: 60%;
   }    
+
 }
